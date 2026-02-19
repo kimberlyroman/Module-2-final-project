@@ -201,16 +201,21 @@ h1{
 .features__row{
     display: flex;
     flex-direction: column;
-    gap: 40px;
-    margin-top: 40px;
     align-items: center;
+    gap: 12px;
 }
 
+.features__description{
+    text-align: center;
+    color: #2b2a2ace;
+    max-width: 576px;
+}
 .services{
     display: flex;
     gap: 40px;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 40px;
 }
 
 .service {
@@ -224,9 +229,25 @@ i {
 }
 
 .service__img__wrapper{
-    padding: 12px 12px:
+    padding: 12px 12px;
 }
 
 .service__description{
     margin: 12px;
+}
+
+/* Quality */
+
+.quality__description{
+    width: 50%;
+    display:flex;
+    flex-direction: column;
+}
+
+.quality__img__wrapper{
+    width:50%;
+}
+
+.quality__img{
+    width: 100%;
 }
