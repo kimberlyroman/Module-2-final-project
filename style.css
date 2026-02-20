@@ -251,3 +251,78 @@ i {
 .quality__img{
     width: 100%;
 }
+
+.bttn{
+    padding: 12px 24px;
+    background-color: #6415ff;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: none;
+    width: fit-content;
+    margin-top: 5%;
+    font-size: 18px;
+}
+
+.bttn:hover{
+    background-color: #5111d2;
+    cursor: not-allowed;
+}
+
+/*STEPS*/
+
+.steps__img__wrapper{
+    width: 50%;
+}
+
+.steps__img{
+    width: 100%;
+}
+
+.steps__row{
+    display: flex;
+    flex-direction: row;
+}
+
+.steps__description{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.steps__list{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.step {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: flex-start;
+    max-width: 350px;
+    margin-left:24px;
+    margin-top: 32px;
+}
+
+.step__number {
+    font-size: 36px;
+    font-weight: 700;
+    color: #cbd5e0;
+}
+
+.step__title {
+    color: #243e63;
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 600;
+}
+
+.step__para{
+    color: #718096;
+    font-size: 16px;
+    line-height: 2;
+    margin-top: 12px;
+}
