@@ -375,3 +375,52 @@ i {
 .value__title{
     display: flex;
 }
+
+/* Pricing */
+
+.pricing__row{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#pricing .pricing__heading{
+    line-height: 1.25;
+    font-weight: 700;
+    text-align: center;
+}
+.pricing__description{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.pricing__plans {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 24px;
+    width: 100%;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: space-evenly;  
+}
+
+.plan {
+    width: calc(100% / 3);
+    max-width: 360px;
+    border-radius: 10px;
+    border:#bebbbb;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.plan__description{
+    padding: 12px;
+    border:#bebbbb;
+    border-width: 2px;
+    border-top: #bebbbb;
+}
+.pricing__bttn__personal{
+    color: white;
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+}
