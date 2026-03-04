@@ -419,6 +419,7 @@ i {
     font-size: 20px;
     font-weight: 600;
     text-align: center;
+    color: black;
 }
 
 .plan__price{
@@ -430,6 +431,7 @@ i {
     font-size: 16px;
     color: #555;
     text-align: center;
+    margin-bottom: 16px;
 }
 
 
@@ -443,6 +445,7 @@ i {
     font-weight: 600;
     margin-bottom: 12px;
     text-align: center;
+    margin-top: 16px;
 }
 
 .plan__description__list{
@@ -451,6 +454,8 @@ i {
     gap: 8px;
     line-height: 1.5;
     text-align: center;
+    font-size: 16px;
+    color: #718096;
 }
 .personal__plan__ribbon{
     height: 8px;
@@ -461,4 +466,25 @@ i {
 .pricing__bttn__personal{
     color: white;
     background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+}
+
+.business__plan__ribbon{
+    height: 8px;
+    background: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+    border-radius: 10px 10px 0 0;
+}
+
+.plan--business{
+    background: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+}
+
+.enterprise__plan__ribbon{
+    height: 8px;
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+    border-radius: 10px 10px 0 0;
+}
+
+.pricing__bttn__enterprise{
+    color: white;
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
 }
