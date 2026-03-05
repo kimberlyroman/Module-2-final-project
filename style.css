@@ -426,13 +426,14 @@ i {
 .plan__price{
     font-size: 48px;
     text-align: center;
+    padding: 20px;
 }
 
 .duration{
     font-size: 16px;
     color: #555;
     text-align: center;
-    margin-bottom: 16px;
+    margin-bottom: 36px;
 }
 
 
@@ -499,8 +500,8 @@ i {
 
 .pricing__bttn:hover{
     opacity: 0.8;
-    transform: translateX(40px);
-    transform: translateY(-2px);
+    transform: (scale(1.05));
+    transform: translate(4px, -4px);
     box-shadow: #555 0px 4px 8px;
 }
 
@@ -518,4 +519,85 @@ i {
 
 .text__white{
     color: white;
+}
+
+
+/* Testimonial */
+.testimonial__img__wrapper{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20px;
+}
+
+.testimonial__img{
+    width: 100%;
+}
+
+.testimonial__description{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.testimonial__rating, .fa-star{
+    color: #f7ba05ce;
+    font-size: 24px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+.card__row{
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card__title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #243e63;
+    margin: 12px 0;
+}
+
+.card__author{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 24px;
+}
+
+.author__img__wrapper {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.author__img{
+    scale: .18;
+}
+
+.card__buttons{
+    display: flex;
+    gap: 12px;
+    margin-top: 24px;
+}
+
+.fa-circle-right, .fa-circle-left{
+    color: #6415ff;
+    font-size: 36px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.fa-circle-right:hover, .fa-circle-left:hover{
+    color: #5111d2;
+    transform: scale(1.1);
 }
