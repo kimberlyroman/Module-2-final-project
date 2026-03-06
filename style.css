@@ -35,21 +35,19 @@ section{
 
 /* NAV BAR STYLES */
 
-.nav{
+.nav__row{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
+    width: 100%;
+    max-width: 1200px;
+    padding-top: 28px;
 }
 
 .nav__container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    max-width: 1200px;
-    padding-top: 12px;
-    padding-left: 20px;
 }
 
 .logo__img__wrapper{
@@ -58,7 +56,7 @@ section{
 }
 
 .logo__img {
-    height: 50px;
+    height: 40px;
 }
 
 .nav__links{
@@ -104,6 +102,9 @@ section{
 }
 
 /*Landing Styles*/
+#landing{
+    padding-top:0;
+}
 .header{
     display: flex;
     align-items: center;
