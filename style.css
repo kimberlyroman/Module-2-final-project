@@ -528,7 +528,7 @@ i {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-right: 20px;
+    padding-right: 28px;
 }
 
 .testimonial__img{
@@ -539,7 +539,7 @@ i {
     width: 50%;
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 28px;
 }
 
 .testimonial__rating, .fa-star{
@@ -600,4 +600,67 @@ i {
 .fa-circle-right:hover, .fa-circle-left:hover{
     color: #5111d2;
     transform: scale(1.1);
+}
+
+/*CTA*/
+
+.cta__row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #6415ff;
+    padding: 96px 0;
+    border-radius: 6px;
+}
+
+.start__row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #6415ff;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+.cta__heading{
+    width: 50%;
+    line-height: 1.5;
+    color: white;
+    font-size: 30px;
+}
+
+.bttn--start{
+    background-color: #f56565;
+    transition: all 300ms ease;
+    color: white;
+    border: none;
+    padding: 20px 40px;
+    cursor: pointer;
+}
+
+.bttn--start:hover{
+    background-color: #c53030;
+}
+
+.bttn--contact{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 20px 40px;
+    transition: all 300ms ease;
+    cursor: pointer;
+}
+
+.bttn--contact:hover{
+    background-color: white;
+    color: #6415ff;
+}
+
+.start__buttons{
+    display: flex;
+    gap: 36px;
 }
