@@ -664,3 +664,20 @@ i {
     display: flex;
     gap: 36px;
 }
+
+/* Footer */
+
+.footer__links{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.link__group{
+    display: flex;
+    flex-direction: column;
+    width: calc(100%/5);
+    align-items: center;
+}
