@@ -733,3 +733,24 @@ i {
     color: white;
     margin-left: 12px;
 }
+
+/* Responsive Styles */
+
+@media (max-width: 1024px) {
+    .header__row{
+        width: 100%;
+        flex-direction: column;
+        gap: 16px;
+        align-items: center;
+    }
+    .form__heading{
+        text-align: center;
+        width: 100%;
+        max-width: 800px;
+    }
+
+    h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+}
