@@ -224,6 +224,7 @@ h1{
 .service {
     display: flex;
     width: calc(100% /4);
+    line-height: 1.5;
 }
 
 i {
@@ -753,4 +754,118 @@ i {
         font-size: 30px;
         text-align: center;
     }
+
+    .services{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service{
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .quality__row{
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .quality__subheading{
+        text-align: center;
+        margin-bottom: 12px;
+    }
+
+    .quality__description{
+        width: 100%;
+        max-width: 500px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .quality__para{
+        margin-top: 12px
+    }
+
+    .steps__row{
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .steps__description{
+        width: 100%;
+        max-width: 500px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .steps__list{
+        align-items: center;
+    }
+
+    .step{
+       display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .values__row{
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 32px;
+        justify-content: center;
+    }
+
+    .values__subheading{
+        text-align: center;
+        margin-bottom: 12px;
+    }
+
+    .values__para{
+        margin-top: 12px;
+        text-align: center;
+    }
+
+    .values__list{
+        align-items: center;
+        display: flex ;
+        flex-direction: column;
+    }
+
+    .value{
+        align-items: center;
+        width: 100%;
+         max-width: 400px;
+         margin-bottom: 16px;
+    }
+
+    .value__title{
+        align-items: center;
+        margin-bottom: 12px;
+        justify-content: center;
+    }
+
+    .values__description{
+        width: 100%;
+        max-width: 500px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .pricing__description{
+        width: 100%;
+        max-width: 500px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+
+     .pricing__plans {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px; 
+    }
+
 }
