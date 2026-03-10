@@ -33,6 +33,10 @@ section{
     padding: 80px 0;
 }   
 
+html{
+    scroll-behavior: smooth;
+}
+
 /* NAV BAR STYLES */
 
 .nav__row{
@@ -71,10 +75,11 @@ section{
     transition: color 0.3s ease;
     margin-bottom: 8px;
     margin-right: 16px;
-    border-bottom: #6415ff;
     opacity: 1;
     position:relative;
     transition: all 300ms ease;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 4px;
 }
 .nav__link--button{
     padding: 10px 20px;
@@ -92,13 +97,15 @@ section{
     bottom: -6px;
     width: 100%;
     height: 2px;
-    background: #6415ff;
     transition: all 300ms ease;
     opacity:0; 
 }
 
 .nav__link:hover{
-    background-color: #5111d2;
+    border-bottom: 2px solid #5111d2;
+    opacity: 0.8;
+    width: 100%;
+    height: 2px;
 }
 
 /*Landing Styles*/
@@ -914,6 +921,20 @@ i {
 
      .footer__logo{
         justify-content: center;
+    }
+
+    .nav__links--mobile{
+        display: none;
+        flex-direction: column;
+        gap: 12px;
+        align-items: center;
+        position:fixed;
+        top: 0px;
+        right: 0;
+        height: 50vh;
+        width: 100%;
+        z-index: 3;
+        background-color: white;
     }
 
 }
