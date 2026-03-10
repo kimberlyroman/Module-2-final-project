@@ -869,4 +869,51 @@ i {
         gap: 12px; 
     }
 
+    .testimonials__row{
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .testimonial__img__wrapper{
+        width: 100%;
+        max-width: 400px;
+        padding: 0;
+    }
+
+    .testimonial__description{
+        width: 100%;
+        max-width: 500px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .start__row{
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .link__group{
+        width: calc(100%/3);
+        max-width: 400px;
+        align-items: center;
+        text-align: center;
+        margin-top: 32px;
+    }
+
+     .link__group__heading{
+        justify-content: center;
+    }
+
+    .footer__info{
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+
+     .footer__logo{
+        justify-content: center;
+    }
+
 }
