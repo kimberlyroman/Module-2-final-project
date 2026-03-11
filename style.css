@@ -47,14 +47,15 @@ html{
         position:fixed;
         top: 0px;
         right: 0;
-        height: 100vh;
+        height: 50vh;
         width: 100%;
         z-index: -3;
         background-color: white;
+        line-height: 3;
     }
 
     .bttn__menu{
-        
+        display:none;
         background-color: transparent;
         border: none;
         cursor: pointer;
@@ -69,7 +70,7 @@ html{
         background-color: white;
         top: 0;
         right: 0;
-        height: 100vh;
+        height: 50vh;
         width: 100%;
         z-index: 4;
         justify-content: center;
@@ -86,6 +87,10 @@ html{
     }
 
 /* NAV BAR STYLES */
+
+.nav__container{
+    margin-bottom: 48px;
+}
 
 .nav__row{
     display: flex;
@@ -969,6 +974,14 @@ i {
 
      .footer__logo{
         justify-content: center;
+    }
+
+    .nav__links{
+        display: none;
+    }
+
+    .bttn__menu{
+        display: block;
     }
 
 }
