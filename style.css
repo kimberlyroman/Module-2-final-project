@@ -985,3 +985,64 @@ i {
     }
 
 }
+
+@media (max-width: 640px){
+    .landing__form{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .landing__input{
+        position: static;
+        width: 100%;
+        padding: 20px 12px 20px 12px;
+    }
+
+    .landing__button{
+        position: static;
+        width: 100%;
+    }
+
+     .header__row{
+        width: 100%;
+        flex-direction: column;
+        gap: 16px;
+        align-items: center;
+    }
+
+    .service{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service__description{
+        text-align: center;
+    }
+
+    .card__row{
+        flex-direction: column;
+        align-items: center;
+    }
+
+     .card__author{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .start__buttons{
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .link__group{
+        width: calc(100%/5);
+        align-items: center;
+        text-align: center;
+        margin-top: 32px;
+    }
+
+     .link__group__heading{
+        justify-content: center;
+    }
+}
