@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/9010c873ca.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Module 2 Final Project</title>
 </head>
@@ -21,9 +22,15 @@
                 <li><a class="nav__link" href=#>Contact Us</a></li>
                 <li><a class="nav__link" href=#>Log In</a></li>
                 <li><a class="nav__link nav__link--button" href=#>Sign Up</a></li>
-                <li onclick=showSidebar() class="nav__link nav__link--hamburger__img"><a class="nav__link__hamburger" href="#"><i class="fa-solid fa-bars"></i></a></li>
             </ul>
-            <ul class="nav__links nav__links--mobile sidebar">
+            <button class="bttn__menu" onclick="openMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="mobile__menu">
+                <button class="bttn__close" onclick="closeMenu()">
+                <i class="fa fa-times"></i>
+                </button>
+                <ul class="nav__links nav__links--mobile hidden">
                 <li><a class="nav__link nav__link__mobile" href=#>About </a></li>
                 <li><a class="nav__link nav__link__mobile" href=#>Blog</a></li>
                 <li><a class="nav__link nav__link__mobile" href=#pricing>Pricing</a></li>
@@ -31,6 +38,7 @@
                 <li><a class="nav__link nav__link__mobile" href=#>Log In</a></li>
                 <li><a class="nav__link nav__link--button nav__link__mobile" href=#>Sign Up</a></li>
             </ul>
+        </div>
             </div>
         </div>
     </nav>

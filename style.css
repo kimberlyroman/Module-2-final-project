@@ -37,6 +37,54 @@ html{
     scroll-behavior: smooth;
 }
 
+/* NAVBAR responsive */
+.nav__links--mobile{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        align-items: center;
+        justify-content: center;
+        position:fixed;
+        top: 0px;
+        right: 0;
+        height: 100vh;
+        width: 100%;
+        z-index: -3;
+        background-color: white;
+    }
+
+    .bttn__menu{
+        
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .menu--open .mobile__menu{
+        display: flex;
+    }
+
+    .mobile__menu{
+        display: none;
+        position: absolute;
+        background-color: white;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        width: 100%;
+        z-index: 4;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bttn__close{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        top: 16px;
+        right: 16px;
+    }
+
 /* NAV BAR STYLES */
 
 .nav__row{
@@ -921,20 +969,6 @@ i {
 
      .footer__logo{
         justify-content: center;
-    }
-
-    .nav__links--mobile{
-        display: none;
-        flex-direction: column;
-        gap: 12px;
-        align-items: center;
-        position:fixed;
-        top: 0px;
-        right: 0;
-        height: 50vh;
-        width: 100%;
-        z-index: 3;
-        background-color: white;
     }
 
 }
